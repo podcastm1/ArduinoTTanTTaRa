@@ -55,7 +55,7 @@ unsigned long melody[] = {
   NOTE_C7,NOTE_B6,NOTE_A6,NOTE_G6,NOTE_F6,NOTE_E6
   };
 //Snow halation main them tempo
-unsigned long tempo[] = {
+unsigned int tempo[] = { //TODO : unsigned long -> unsigned int
    8, 8, 8 ,8, 4, 8 ,8, 2,
    8 ,8 ,8 ,8 ,8 ,8, 8, 8,
    4, 8, 8 ,2,
